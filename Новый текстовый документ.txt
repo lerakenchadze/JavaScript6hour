@@ -1,0 +1,30 @@
+// 1. Переменные
+
+// variable, стараться не использовать
+var name = 'Lera' 
+
+// лучше использовать const
+const lastName = 'Deshkevich' // string
+
+// если пишем let то допускаем что мы будем потом менять значение переменной
+let age = 21 // number
+
+const isProgrammer = true //boolean
+
+// name = 'Valeriya'
+// age = 22
+// age = 'some string'
+
+// console.log(name)
+
+// CamelCase
+const firstName = 'Valeriya'
+
+
+const _private = 'private'
+const _ = 'private'
+const $ = 'some value'
+
+// const if = 'nfjdk' //err
+const withNum5 = '5'
+//const 5withNum = '5' // err
